@@ -1,7 +1,7 @@
 1.subset sum -using recursion,bit manipulation,and dp
+----------------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int n; cin >> n;
     vector<int> v(n);
@@ -40,10 +40,9 @@ int main() {
     return 0;
 }
 2.SUBSET SUM WITH DUPLICATES
-
+------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int n; cin >> n;
     vector<int> v(n);
@@ -82,6 +81,7 @@ int main() {
     return 0;
 }
 3.COIN CHANGE(when infinite are allowed)
+----------------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -127,6 +127,7 @@ int main() {
 
 
 4.OPTIMIZED VERSION OF ABOVE
+-------------------------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -163,6 +164,7 @@ int f=0;
     return 0;
 }
 5.MINIMUM NUMBER OF COINS NEEDED USING DP
+------------------------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -202,6 +204,7 @@ int f=0;
     return 0;
 }
 6.Lnegth of the longest subsequence using DP
+---------------------------------------------------
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
