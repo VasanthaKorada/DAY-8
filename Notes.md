@@ -1,5 +1,6 @@
 1.subset sum -using recursion,bit manipulation,and dp
 ----------------------------------------------
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
@@ -39,8 +40,10 @@ int main() {
 
     return 0;
 }
+```
 2.SUBSET SUM WITH DUPLICATES
 ------------------------------------
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
@@ -80,8 +83,10 @@ int main() {
 
     return 0;
 }
+```
 3.COIN CHANGE(when infinite are allowed)
 ----------------------------------------------
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -124,10 +129,10 @@ int main() {
 
     return 0;
 }
-
-
+```
 4.OPTIMIZED VERSION OF ABOVE
 -------------------------------------------------------
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -163,8 +168,10 @@ int f=0;
 
     return 0;
 }
+```
 5.MINIMUM NUMBER OF COINS NEEDED USING DP
 ------------------------------------------------------
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -203,8 +210,10 @@ int f=0;
 
     return 0;
 }
+```
 6.Lnegth of the longest subsequence using DP
 ---------------------------------------------------
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -232,3 +241,4 @@ int main(){
         }
         cout<<dp[a][b];
 }
+```
